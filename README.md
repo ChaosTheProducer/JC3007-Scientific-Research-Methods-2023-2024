@@ -51,7 +51,7 @@ Train Prefix Tuning models:
   ```bash
   python code/train_prefix.py
   ```
-The Lora is trained via[LLamA-Factory](https://github.com/hiyouga/LLaMA-Factory) 
+The Lora is trained via [LLamA-Factory](https://github.com/hiyouga/LLaMA-Factory) 
 Please reference for my report for more training configs.
 
 ### Inference
@@ -72,8 +72,7 @@ The example output can be seend in the results directory.
 | LoRA            | 85.94        | 4.5                   | 18.4 (No quantization) | 250             |
 | Prefix Tuning   | 65.25        | 6.2                   | 15.7 (4-bit quantized) | 310             |
 
-### Training Steps and Convergence Rate
-![Training Loss Comparison](results/figures/loss_comparison.png)
+More results are shown in the report.
 
 ## Acknowledgments
 This project leverages the following libraries and tools:
